@@ -8,6 +8,11 @@ abi = "mock_v3_aggregator"
 [networks.contracts.coffee]
 deployer_script = "script/deploy.py"
 
+[networks.anvil]
+url = "http://127.0.0.1:8545"
+default_account_name = "anvil1"
+save_to_db = true
+
 [networs.sepolia]
 url = "$SEPOLIA_RPC_URL"
 save_to_db = false
